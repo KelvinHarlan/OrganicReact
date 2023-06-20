@@ -1,0 +1,55 @@
+.bannerHome {
+    height: 700px;
+    overflow: hidden;
+    position: fixed;
+    z-index: -2;
+}
+
+.bannerImg {
+    width: 100%;
+   
+
+}
+
+.textBanner{
+    width: 500px;
+    height:700px;
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    font-weight:900;
+}
+
+.textBanner h2{
+    font-size: 3.5em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    
+}
+
+.cursiveText{
+    font-family: 'Yellowtail';
+    color: #68A47F;
+    margin: 0;
+    font-size: 1.7em;
+    
+
+}
+.contentTextBanner{
+    width: 400px;
+}
+
+.btnBanner{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #EFD372;
+    font-weight: bold;
+    color: #274C5B;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px #274c5b80;
+}
+.btnBanner:hover{
+    background-color: #f3cf4e;
+}

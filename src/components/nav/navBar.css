@@ -1,0 +1,75 @@
+
+
+.navContainer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffff;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.navContainer ul{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.navContainer ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+.navContainer ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.logo{
+    padding-right: 50px;
+}
+
+.navMenuButton{
+    width: 50%;
+    display: flex;
+    align-items: center; 
+}
+
+.searchButton{
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #7EB693;
+}
+
+.navMenuButton input{
+    height: 50px;
+    border: none;
+    background-color: #f7f7f7;
+    border-radius: 50px;
+    padding-left: 15px;
+ 
+}
+
+textarea:focus, input:focus{
+    box-shadow: 0px 0px 3px #7EB693;
+    outline: none;
+}
+
+.cardButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #274C5B;
+    
+}
