@@ -4,9 +4,7 @@ import bannerHome from '../../Images/bannerHome.jpg';
 function Home() {
     return (
         <main className='containerHome'>
-            <section className='bannerHome'>
-                <img className='bannerImg' src={bannerHome} alt="Banner" />
-            </section>
+           
             <div className='textBanner'>
                 <div className='contentTextBanner'>
                     <p className='cursiveText'>100% Natural food</p>
