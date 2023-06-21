@@ -1,6 +1,6 @@
 import './home.css';
-import bannerHome from '../../Images/bannerHome.jpg';
 import Card from './cards/Card';
+import imgCategoriesLogo from '../../Images/photoCategories.png'
 
 function Home() {
     return (
@@ -16,10 +16,29 @@ function Home() {
 
             <section className='salesContainer'>
                 <div className='cardsSalesBox'>
-                    <Card className="card01" textCursive="Naturall!!" textBold="Get Garden Fresh Fruits" />
-                    <Card className="card02" textCursive="Offer!!" textBold="Get 10% off
-on Vegetables" />
-        
+                    <Card
+                        className="card01"
+                        textCursive="Naturall!!"
+                        textBold="Get Garden Fresh Fruits" />
+
+                    <Card className="card02"
+                        textCursive="Offer!!"
+                        textBold="Get 10% off on Vegetables" />
+
+                </div>
+            </section>
+            <section className='categoriesContainer'>
+                <div className='imgCategoriesLogo'>
+                    <img src={imgCategoriesLogo} alt="Categories Logo" />
+                </div>
+                <div className='textCategories'>
+                    <div className='textCategoriesBox1'>
+                    <p>About Us</p>
+                    <h4>We Believe in Working Accredited Farmers</h4>
+                    <p>Simply dummy text of the printing and typesetting industry.
+                    Lorem had ceased to been the industry's standard dummy text ever
+                    since the 1500s, when an unknown printer took a galley.</p>
+                    </div>
                 </div>
             </section>
 
