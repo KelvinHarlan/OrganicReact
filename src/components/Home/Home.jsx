@@ -32,12 +32,15 @@ function Home() {
                     <img src={imgCategoriesLogo} alt="Categories Logo" />
                 </div>
                 <div className='textCategories'>
-                    <div className='textCategoriesBox1'>
-                    <p>About Us</p>
-                    <h4>We Believe in Working Accredited Farmers</h4>
-                    <p>Simply dummy text of the printing and typesetting industry.
-                    Lorem had ceased to been the industry's standard dummy text ever
-                    since the 1500s, when an unknown printer took a galley.</p>
+                    <div className='box1'>
+                        <p className='cursiveFont'>About Us</p>
+                        <h4>We Believe in Working Accredited Farmers</h4>
+                        <p>Simply dummy text of the printing and typesetting industry.
+                            Lorem had ceased to been the industry's standard dummy text ever
+                            since the 1500s, when an unknown printer took a galley.</p>
+                    </div>
+                    <div className='box2'>
+                        
                     </div>
                 </div>
             </section>
