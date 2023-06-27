@@ -30,22 +30,7 @@
     width: 400px;
 }
 
-.btnBanner {
-    width: 200px;
-    height: 50px;
-    border: none;
-    border-radius: 5px;
-    background-color: #EFD372;
-    font-weight: bold;
-    color: #274C5B;
-    border-radius: 15px;
-    box-shadow: 1px 1px 5px #274c5b80;
-}
 
-.btnBanner:hover {
-    background-color: #bba041;
-    color: #fff;
-}
 
 .cardsSalesBox{
     background-color: #ffff;
@@ -82,11 +67,13 @@
     background-color: #F9F8F8 ;
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 50px 0;
     
 }
 
 .imgCategoriesLogo{
-    width: 50%;
+    width: 40%;
 }
 .imgCategoriesLogo img{
     width: 100%;
@@ -98,11 +85,21 @@
 }
 
 /*Box 01*/
-.box1 
+
+.box1{
+    
+    width: 80%;
+}
 
 .box1 h4{
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bold;
+    margin: 10px;
+}
+
+.box1 p{
+    margin: 0;
+    text-align: justify;
 }
 
 .cursiveFont{
@@ -113,4 +110,31 @@
 }
 
 /*Box 02*/
+
+.cardCategorie{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    margin-top: 20px;
+}
+
+.cardCategorie img{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+
+.veganCard{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 10px;
+}
+
+.veganCard h4,p{
+    margin: 5px;
+
+}
 

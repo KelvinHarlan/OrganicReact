@@ -1,0 +1,37 @@
+
+.btn img{
+    padding: 8px;
+    background-color: #335B6B;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.btn{
+    width: 200px;
+    height: 70px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnCategorie{
+    color:#fff;
+    background-color: #274C5B;
+}
+
+.btnBanner {
+    background-color: #EFD372;
+    color: #274C5B;
+    box-shadow: 1px 1px 5px #274c5b80;
+   
+}
+
+.btnBanner:hover {
+    background-color: #e4c65c;
+    color: #fff;
+}
