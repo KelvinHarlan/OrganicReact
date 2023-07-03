@@ -5,6 +5,8 @@ import vegan from '../../Images/vegan.png'
 import MiniCard from '../miniCard/MiniCard.jsx';
 import qualit from '../../Images/Quality.png'
 import Button from './button/Button';
+import Products from './products/Products';
+
 
 function Home() {
     return (
@@ -52,6 +54,10 @@ function Home() {
                     </div>
                     <Button className='btn btnCategorie' text='Shop Now' />
                 </div>
+            </section>
+
+            <section>
+            <Products Button={Button} />
             </section>
 
 

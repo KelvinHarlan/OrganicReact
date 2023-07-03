@@ -23,6 +23,10 @@
     color:#fff;
     background-color: #274C5B;
 }
+.btnCategorie:hover{
+    opacity: .8;
+    
+}
 
 .btnBanner {
     background-color: #EFD372;

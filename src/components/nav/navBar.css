@@ -26,6 +26,10 @@
     color: #000;
 }
 
+.navContainer ul li a:hover{
+    color: #274C5B;
+}
+
 .logo{
     padding-right: 50px;
 }
