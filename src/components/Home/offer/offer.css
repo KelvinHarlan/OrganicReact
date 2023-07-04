@@ -1,0 +1,26 @@
+.offer_container{
+    background-color: #274C5B;
+    padding: 50px;
+    
+}
+
+.title_container_offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 97%;
+    margin-bottom: 20px;
+}
+
+.title_offer{
+    color: #fff;
+    font-size: 2rem;
+    margin: 5px;
+}
+
+.cards_offer_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

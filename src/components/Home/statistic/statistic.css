@@ -1,0 +1,35 @@
+.statistic_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.card_statistic{
+    background-color:#F1F1F1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #7EB693;
+    margin: 10px;
+}
+
+.card_statistic:hover{
+    background-color: #274c5b31;
+}
+
+.card_statistic p{
+    color:#274C5B;
+    margin: 0;
+  
+}
+
+.title_statistc{
+    color:#274C5B;
+    font-size: 2rem;
+    margin: 0;
+   
+}

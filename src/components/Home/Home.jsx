@@ -6,6 +6,9 @@ import MiniCard from '../miniCard/MiniCard.jsx';
 import qualit from '../../Images/Quality.png'
 import Button from './button/Button';
 import Products from './products/Products';
+import Testimony from './testimony/Testimony';
+import Statistic from './statistic/Statistic';
+import Offer from './offer/Offer';
 
 
 function Home() {
@@ -56,11 +59,18 @@ function Home() {
                 </div>
             </section>
 
-            <section>
+            <section className='products_section'>
             <Products Button={Button} />
             </section>
-
-
+            <section className='Testimony_section'>
+                <Testimony />
+            </section>
+            <section className='statistic_section'>
+                <Statistic />
+            </section>
+            <section className='offer_section'>
+                <Offer />
+            </section>
         </main>
     )
 }

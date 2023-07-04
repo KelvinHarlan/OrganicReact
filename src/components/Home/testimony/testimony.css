@@ -1,0 +1,36 @@
+.user_container_testimonial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 50px;
+    background-color:#F9F8F8;
+}
+
+.testimony_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimony_container h2{
+    margin: 10px 0 30px 0;
+    font-size: 3rem;
+    color: #274C5B;
+}
+
+.photo_user{
+    border-radius: 50%;
+}
+
+.user_container_testimonial .stars{
+    margin-top: 10px;
+}
+
+.text_user{
+    width: 50%;
+    text-align: center;
+    line-height: 30px;
+}

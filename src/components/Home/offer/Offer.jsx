@@ -1,24 +1,24 @@
-import './products.css';
-import { productsData } from './productsData.js';
+import './offer.css';
+import Button from '../button/Button';
+import { productOffer } from '../products/productsData';
 import { FaStar } from "react-icons/fa";
 
 
-
-
-function Products({ Button }) {
-
+function Offer() {
     return (
-        <>
-            <div className='title_product_container'>
-                <div className='cursive_title_product cursiveFont'>Categories</div>
-                <div className='our_products'>Our Products</div>
+        <div className='offer_container'>
+            <div className='title_container_offer'>
+                <div className='title_box'>
+                    <p className='cursiveFont'>Offer</p>
+                    <h2 className='title_offer' >We Offer Organic For You</h2>
+                </div>
+                <div className='btn_offer_container'>
+                    <Button className="btn btnBanner" text="View All Product" />
+                </div>
             </div>
-
-            <div className='products_container'>
-
-
+            <div className='cards_offer_container'>
                 {
-                    productsData.map(({ id, name, typeName, price, newPrice, img }) => (
+                    productOffer.map(({ id, name, typeName, price, newPrice, img }) => (
 
                         <div className='card_product' key={id}>
                             <div className='type_product'>{typeName}</div>
@@ -41,11 +41,8 @@ function Products({ Button }) {
                     ))
                 }
             </div>
-            <div className='btn_container'>
-                <Button className='btn btnCategorie' text='Load More' />
-            </div>
-        </>
+        </div>
     )
 }
 
-export default Products;
+export default Offer;
